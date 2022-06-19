@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+*{
+    font-style: italic;
+    list-style: none;
+}
+header nav ul li a{
+    background-color: black;
+    margin-top: 20px;
+    font-size: 26px;
+    color: darkgoldenrod;
+}
+main h1{
+    background-color: black;
+    font-size: 40px;
+    margin-top: -10px;
+    color:rgb(190, 185, 185) 
+}
+img{
+    margin-left: -20px;
+    margin-right: 20px;
+    height: 400px;
+    float: left;
+    border-style:groove;
+    border-color: darkblue;
+    border-radius: 10%
+}
+aside ul {
+    background-color: rgba(0, 0, 0, 0.800);
+    font-size: 20px;
+    color: white;
+    border-style: double;
+}
+aside article h3{
+    font-size: 20px;
+    color: gray;
+    border-style: double;
+    text-align: center;
+    margin-top: 35px;
+}
+footer section h3{
+    background-color: black;
+    color: white;
+}
